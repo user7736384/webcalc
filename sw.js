@@ -1,5 +1,5 @@
 // Offline support: the app files are cached on first visit; fonts are cached as they load.
-const VERSION = 'sc97-v3';
+const VERSION = 'sc97-v5';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png', 'icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
